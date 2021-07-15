@@ -1,55 +1,89 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-header{
-    position: fixed;
-    background: #121212;
-    top: 0;
-    left: 0;
-    height: 80px;
-    width: 100%;
-    color: #fff;
+body {
+	font-family: 'Poppins', sans-serif;
 }
 
-.header-content{
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
+header {
+	position: fixed;
+	background: #121212;
+	top: 0;
+	left: 0;
+	height: 65px;
+	width: 100%;
+	color: #fff;
 }
 
-.logo{
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.header-content {
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
 }
 
-.menu{
-    height: 80px;
+.logo {
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.menu nav{
-    height: 100%;
+.logo h1 {
+	font-size: 1.4rem;
+}
+.logo h1 b{
+    font-size: 1rem;
+	font-weight: normal;
+}
+.icono {
+	margin-top: 11px;
+	margin-left: 5;
+	font-size: 24px;
 }
 
-.menu nav ul{
-    /* height */
-}
-.menu nav ul{
-    height: 100%;
-    display: flex;
-    list-style: none;
+.menu {
+	height: 80px;
 }
 
-.menu nav ul li{
-    height: 100%;
-    margin: 0 20px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    position: relative;
+.menu nav {
+	height: 100%;
+}
+
+.menu nav ul {
+	/* height */
+}
+
+.menu nav ul {
+	height: 100%;
+	display: flex;
+	list-style: none;
+}
+
+.menu nav ul li {
+	height: 100%;
+	margin: 0 20px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+	font-size: 0.8rem;
+	color: white;
+}
+
+.registro {
+	display: block;
+	background-color: #177F9F;
+	color: white;
+	border-radius: 5px;
+	padding: 10px 40px;
 }
