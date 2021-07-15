@@ -4,8 +4,8 @@
 
 Crear el menu de una aplicacion web
 ## Recursos para primer proyecto  
-Este es link donde pueden ingresar a la carpeta de drive, alli se encuentra los recursos necesarios para el desarrollo de la interfaz
-[recurso](https://drive.google.com/drive/folders/1UU8Me1NU1R3urH5Y6sqbTTbRANACGnfY?usp=sharing)  
+Este es [link](https://drive.google.com/drive/folders/1UU8Me1NU1R3urH5Y6sqbTTbRANACGnfY?usp=sharing) donde pueden ingresar a la carpeta de drive, alli se encuentra los recursos necesarios para el desarrollo de la interfaz
+  
 1. El contenido de la carpeta que se encuentra dentro de este folder será constantemente actualizado con nuevos recursos. 
 
 2. Están todos los recursos correspondientes al proyecto e imágenes extra que pueden ser útiles en algún momento.
