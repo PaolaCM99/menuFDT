@@ -35,15 +35,15 @@ header {
 }
 
 .logo h1 {
-	font-size: 1.4rem;
+	font-size: 2vw;
 }
 .logo h1 b{
-    font-size: 1rem;
+    font-size: 1.2vw;
 	font-weight: normal;
 }
 .icono {
 	margin-top: 11px;
-	margin-left: 5;
+	margin-left: 5px;
 	font-size: 24px;
 }
 
@@ -76,7 +76,7 @@ header {
 
 a {
 	text-decoration: none;
-	font-size: 0.8rem;
+	font-size: 1vw;
 	color: white;
 }
 
