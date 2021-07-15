@@ -2,7 +2,9 @@
 
 ## Objetivo
 
-Crear el menu de una aplicacion web
+Creacion del menu de la aplicacion web, free development team  
+
+
 ## Recursos para primer proyecto  
 Este es [link](https://drive.google.com/drive/folders/1UU8Me1NU1R3urH5Y6sqbTTbRANACGnfY?usp=sharing) donde pueden ingresar a la carpeta de drive, alli se encuentra los recursos necesarios para el desarrollo de la interfaz
   
