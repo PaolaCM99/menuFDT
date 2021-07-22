@@ -110,6 +110,9 @@ a {
 	border-radius: 2px 0 0 2px;
 	padding: 0 0 0 5px;
 }
+.menu nav ul li #search-bar input:focus{
+		outline: none;
+}
 .menu nav ul li #search-bar i{
 	height: 25px;
 	padding: 5px 6px 0 6px;
@@ -121,36 +124,36 @@ a {
 }
 
 /* MENU DESPLEGABLE */
-
 nav > ul > li:nth-child(2) > ul{
 	position: absolute;
 	display: none;
-	width: 1465px;
+	width: 1465px; 
 	height: 60px;
 	background-color: #177F9F;
 }
-
 nav > ul > li:nth-child(2) > ul > .social-media-i{
 	display: inline-flex;
-	background-color: #ddd;
+	padding-left: 8em;
 }
-
 nav > ul > li:nth-child(2) > ul > .social-media-i > li > a > i{
-	font-size: 24px;
+	font-size: 22px;
+	margin-right: -1em;
 }
-
 nav > ul > li:nth-child(2) > ul > .info-links{
-	display: inline-flex;
-	background-color: #ccc;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: end;
+	width: 1000px;
+	background-color: #0F5064;
+	padding-right: 8em;
 }
-
 nav > ul > li:nth-child(2):hover > ul{
 	position: absolute;
 	top: 85%;
 	left: -800%;
-	display: block;
+	display: flex;
+	justify-content: space-between;
 }
-
 ul.estudios{
 	display: none;
 }
