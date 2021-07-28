@@ -124,22 +124,22 @@ a {
 }
 
 /* MENU DESPLEGABLE */
-nav > ul > li:nth-child(2) > ul{
+nav > ul > .despliegue > .hidden{
 	position: absolute;
 	display: none;
 	width: 1465px; 
 	height: 60px;
 	background-color: #177F9F;
 }
-nav > ul > li:nth-child(2) > ul > .social-media-i{
+nav > ul > .despliegue > .hidden > .social-media-i{
 	display: inline-flex;
 	padding-left: 8em;
 }
-nav > ul > li:nth-child(2) > ul > .social-media-i > li > a > i{
+nav > ul > .despliegue > .hidden > .social-media-i > li > a > i{
 	font-size: 22px;
 	margin-right: -1em;
 }
-nav > ul > li:nth-child(2) > ul > .info-links{
+nav > ul > .despliegue > .hidden > .info-links{
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: end;
@@ -147,7 +147,7 @@ nav > ul > li:nth-child(2) > ul > .info-links{
 	background-color: #0F5064;
 	padding-right: 8em;
 }
-nav > ul > li:nth-child(2):hover > ul{
+nav > ul > .despliegue:hover > .hidden{
 	position: absolute;
 	top: 85%;
 	left: -800%;
