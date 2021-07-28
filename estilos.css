@@ -130,6 +130,7 @@ nav > ul > li:nth-child(2) > ul{
 	width: 1465px; 
 	height: 60px;
 	background-color: #177F9F;
+	
 }
 nav > ul > li:nth-child(2) > ul > .social-media-i{
 	display: inline-flex;
