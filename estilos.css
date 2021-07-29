@@ -38,12 +38,12 @@ header {
 	font-size: 24px;
 }
 
-.logo h1 span{
-    font-size: 14px;
+.logo h1 span {
+	font-size: 14px;
 	font-weight: 300;
 }
 
-.logo i{
+.logo i {
 	cursor: pointer;
 	margin-bottom: -5px;
 	font-size: 24px;
@@ -78,7 +78,7 @@ header {
 	position: relative;
 }
 
-.a:hover{
+.a:hover {
 	color: #177F9F;
 }
 
@@ -89,7 +89,7 @@ a {
 	color: white;
 }
 
-.registro{
+.registro {
 	display: block;
 	background-color: #177F9F;
 	color: white;
@@ -103,17 +103,19 @@ a {
 	height: 30px;
 }
 
-.menu nav ul li #search-bar input{
+.menu nav ul li #search-bar input {
 	width: 200px;
 	height: 25px;
 	border: none;
 	border-radius: 2px 0 0 2px;
 	padding: 0 0 0 5px;
 }
-.menu nav ul li #search-bar input:focus{
-		outline: none;
+
+.menu nav ul li #search-bar input:focus {
+	outline: none;
 }
-.menu nav ul li #search-bar i{
+
+.menu nav ul li #search-bar i {
 	height: 25px;
 	padding: 5px 6px 0 6px;
 	background: #177F9F;
@@ -124,23 +126,26 @@ a {
 }
 
 /* MENU DESPLEGABLE */
-nav > ul > .despliegue > .hidden{
+nav>ul>.despliegue>.hidden {
 	position: absolute;
 	display: none;
-	width: 1465px; 
+	width: 1465px;
 	height: 60px;
 	background-color: #177F9F;
-	
+
 }
-nav > ul > .despliegue > .hidden > .social-media-i{
+
+nav>ul>.despliegue>.hidden>.social-media-i {
 	display: inline-flex;
 	padding-left: 8em;
 }
-nav > ul > .despliegue > .hidden > .social-media-i > li > a > i{
+
+nav>ul>.despliegue>.hidden>.social-media-i>li>a>i {
 	font-size: 22px;
 	margin-right: -1em;
 }
-nav > ul > .despliegue > .hidden > .info-links{
+
+nav>ul>.despliegue>.hidden>.info-links {
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: end;
@@ -148,36 +153,46 @@ nav > ul > .despliegue > .hidden > .info-links{
 	background-color: #0F5064;
 	padding-right: 8em;
 }
-nav > ul > .despliegue:hover > .hidden{
+
+nav>ul>.despliegue:hover>.hidden {
 	position: absolute;
 	top: 85%;
 	left: -800%;
 	display: flex;
 	justify-content: space-between;
 }
-ul.estudios{
+
+ul.estudios {
 	display: none;
 }
 
 /* SEGUNDO DESPEGABLE */
-nav > ul > .despliegue > .hidden > .plan-de-estudios{
+nav>ul>.despliegue>.hidden>.plan-de-estudios {
 	display: inline-flex;
 	padding-left: 8em;
-	
+
 }
-nav > ul > .despliegue > .hidden > .info-links-plan-de-estudio{
+
+nav>ul>.despliegue>.hidden>.info-links-plan-de-estudio {
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: end;
 	width: 1000px;
 	background-color: #0F5064;
 	padding-right: 8em;
+
 }
-nav > ul > .despliegue > .hidden >  .plan-de-estudios > li > a > i{
+
+nav>ul>.despliegue>.hidden>.info-links-plan-de-estudio>li>a {
+	font-size: 9.7px;
+}
+
+nav>ul>.despliegue>.hidden>.plan-de-estudios>li>a>i {
 	font-size: 22px;
 	margin-right: -1em;
 }
-nav > ul > .despliegue:hover > .desplazamiento{
+
+nav>ul>.despliegue:hover>.desplazamiento {
 	position: absolute;
 	top: 85%;
 	left: -1000%;
