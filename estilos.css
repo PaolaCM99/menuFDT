@@ -158,3 +158,29 @@ nav > ul > .despliegue:hover > .hidden{
 ul.estudios{
 	display: none;
 }
+
+/* SEGUNDO DESPEGABLE */
+nav > ul > .despliegue > .hidden > .plan-de-estudios{
+	display: inline-flex;
+	padding-left: 8em;
+	
+}
+nav > ul > .despliegue > .hidden > .info-links-plan-de-estudio{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: end;
+	width: 1000px;
+	background-color: #0F5064;
+	padding-right: 8em;
+}
+nav > ul > .despliegue > .hidden >  .plan-de-estudios > li > a > i{
+	font-size: 22px;
+	margin-right: -1em;
+}
+nav > ul > .despliegue:hover > .desplazamiento{
+	position: absolute;
+	top: 85%;
+	left: -1000%;
+	display: flex;
+	justify-content: space-between;
+}
